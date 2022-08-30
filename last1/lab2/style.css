@@ -1,0 +1,44 @@
+.text-red {
+  color: rgb(231, 114, 172);
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  vertical-align: middle;
+}
+h1 {
+  color: tomato;
+}
+.font-big {
+  font-size: 50px;
+}
+.list {
+  background-color: rgb(118, 191, 201);
+}
+div {
+  text-align: center;
+  vertical-align: middle;
+}
+.decoration {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(165, 42, 42);
+  text-decoration-style: dotted;
+}
+h1 {
+  text-transform: capitalize;
+}
+.indent {
+  text-indent: 50px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  line-height: 30px;
+  white-space: wrap;
+}
+h2 {
+  text-shadow: 5px 5px 5px red;
+  font-size: 200px;
+}
+h2 {
+  text-shadow: 10px 10px 10px blue;
+}
+.family {
+  font-family: "Times New Roman", Times, serif;
+}
