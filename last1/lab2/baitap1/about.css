@@ -1,0 +1,29 @@
+* {
+  background-image: url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000);
+}
+.cha a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #009900;
+  margin: 15px;
+  font-size: 18px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.cha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  background-clip: padding-box;
+}
+.con p {
+  float: right;
+  padding-right: 500px;
+}
