@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto";
+}
 .text-red {
   color: rgb(231, 114, 172);
   direction: rtl;
@@ -41,4 +45,7 @@ h2 {
 }
 .family {
   font-family: "Times New Roman", Times, serif;
+}
+.menu-list a {
+  text-decoration: none;
 }
