@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  background-image: url();
+}
+.box1 {
+  background-color: red;
+  width: 300px;
+  border: 10px solid yellow;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 30px 30px 15px green;
+  border-radius: 100%;
+  overflow: visible;
+}
+.box2 {
+  background-color: blue;
+  width: 250px;
+  border: 15px solid tomato;
+  box-shadow: 20px 20px 10px violet;
+  border-radius: 9999999999px;
+}
+.box {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding: 20px;
+  border-style: ;
+  border-width: ;
+  border-color: ;
+  background-image: url(https://hoaidoan.vn/wp-content/uploads/2021/03/background-dep-5.png);
+}
