@@ -59,17 +59,19 @@
   padding-right: 60px;
 }
 .chat1 {
-  text-decoration: none;
   width: 400px;
   height: 25px;
   margin: 0px;
-  color: #000;
   display: flex;
   justify-content: center;
 }
 .con2 .h4 {
   margin: 0px;
 }
-.chat3 {
+.chat3 a {
+  text-decoration: none;
+}
+.chat1 a {
+  color: #000;
   text-decoration: none;
 }
