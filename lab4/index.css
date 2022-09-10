@@ -1,0 +1,25 @@
+.container {
+  height: 200px;
+  /*display: inline; */
+  display: flex; /*linh hoạt*/
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 10px; /*đạt khoảng cách tùy chỉnh giữa các mục nội dung*/
+
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  align-self: auto;
+}
+.itemspecial {
+  height: 200px;
+  background-color: rgb(209, 82, 36);
+  font-size: 30px;
+  line-height: 1.5;
+  order: 1; /*thay đổi vị trí xuất hiện của item*/
+}

@@ -2,7 +2,7 @@
   width: 500px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid #ffffff;
+  border: 1px solid #f3eeee;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #958888;
 }
@@ -12,7 +12,7 @@
   background-color: rgb(247, 104, 52);
   color: #ffffff;
   border: 1px solid rgb(247, 104, 52);
-  border-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .con1 {
   background-color: orangered;
@@ -45,4 +45,8 @@
 }
 .chau3 a {
   text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: blue;
 }

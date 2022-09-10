@@ -1,0 +1,31 @@
+.nhachung {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+}
+.nha {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 20px;
+}
+.onlab {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.nha1 {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgb(0 0 0 /15%);
+}
+.name {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.nha a {
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+}
