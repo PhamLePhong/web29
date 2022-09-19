@@ -1,0 +1,365 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="video.css" />
+  </head>
+  <body>
+    <form action=""></form>
+    <div>
+      <input type="text" placeholder="Họ Tên" />
+    </div>
+    <div>
+      <input type="email" placeholder="email" />
+    </div>
+    <div>
+      <input type="number" placeholder="Số điện thoại" />
+    </div>
+    <div>
+      <input type="password" placeholder="Mật Khẩu" />
+    </div>
+
+    <input type="password" placeholder="Nhập lại mật khẩu" />
+    <div><button >Đăng ký</button></div> -->
+    <!-- <video controls autoplay loop muted width="500px" height="300px">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <audio controls autoplay loop muted width="500px" height="300px">
+      <source src="audio.mp3" type="audio/mp3" />
+    </audio>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/7ICKkagL3xA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/l4ugz398zZk"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.382006972695!2d105.83993484954694!3d20.97731889484187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac44e55c3871%3A0x6b8754f15ffecd21!2zNiBQLiBHacOhcCBOaOG7iywgR2nDoXAgQsOhdCwgSG_DoG5nIE1haSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1663241299828!5m2!1svi!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe> -->
+    <!-- <form action="">
+      <div>
+        <label for="">ten tai khoan</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="1">password</label>
+        <input type="password" />
+      </div>
+      <div>
+          <label for="">chon mau</label>
+          <input type="color" />
+      </div>
+      <input type="date" />
+      <input type="range" />
+
+      
+        <input type="button" />
+        <input type="checkbox" />
+        <input type="datetime" />
+        <input type="datetime-local" />
+        <input type="email" />
+        <input type="file" />
+        <select name="" id="">
+          <option value="30">Ha Noi</option>
+          <option value="36">Thanh Hoa</option>
+          <option value="35">Ninh Binh</option>
+          <option value="30">Ha Noi</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="">click</button>
+    </form> -->
+  <!-- </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Position</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                vertical-align: middle;
+            }
+
+            .movie {
+                position: relative;
+                width: 320px;
+            }
+
+            .btn-play,
+            .movie-info {
+                position: absolute;
+            }
+
+            .btn-play {
+                top: 5px;
+                left: 5px;
+            }
+
+            .movie-info {
+                /* Kéo căng phần tử cho to bằng card */
+                left: 0;
+                right: 0;
+                /* Đặt phần tử ở vị trí mép dưới */
+                bottom: 0;
+
+                color: white;
+                padding: 30px 15px 10px;
+                background-image: linear-gradient(
+                    transparent,
+                    rgba(0, 0, 0, 0.1),
+                    rgba(0, 0, 0, 0.3),
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.9)
+                );
+            }
+
+            .movie-title {
+                font-size: 16px;
+                font-weight: normal;
+                margin-bottom: 2px;
+            }
+
+            .movie-meta {
+                font-size: 12px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            
+
+            .container {
+                max-width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .nav {
+                background-color: rgb(157, 157, 255);
+                padding-bottom: 4px;
+            }
+
+            .menu {
+                display: flex;
+                list-style: none;
+                background-color: rgb(39, 55, 78);
+            }
+
+            .menu-item {
+                flex-grow: 1;
+                position: relative;
+            }
+
+            .menu-link {
+                display: block;
+                padding: 15px 20px;
+                text-transform: uppercase;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .menu-link.active {
+                background-color: rgb(157, 157, 255);
+            }
+
+            .menu-item:hover .menu-link {
+                background-color: rgb(157, 157, 255);
+            }
+
+            .menu-item:hover .sub-menu {
+                display: block;
+            }
+
+            .sub-menu {
+                display: none;
+                position: absolute;
+                background-color: white;
+                list-style: none;
+                top: 100%;
+                left: 0;
+                box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .sub-item {
+                position: relative;
+            }
+
+            .sub-item:hover .sub-link {
+                background-color: rgb(157, 157, 255);
+                color: white;
+            }
+
+            .sub-item:hover .sub-sub-menu {
+                display: block;
+            }
+
+            .sub-link {
+                display: block;
+                padding: 15px 50px 15px 20px;
+                white-space: nowrap;
+                color: rgba(0, 0, 0, 0.5);
+                text-decoration: none;
+            }
+
+            .triangle {
+                position: absolute;
+                bottom: 100%;
+                left: 18px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 10px 10px 10px;
+                border-color: transparent transparent white transparent;
+            }
+
+            .sub-sub-menu {
+                position: absolute;
+                top: 0;
+                left: 100%;
+                display: none;
+                position: absolute;
+                background-color: white;
+                list-style: none;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .sub-sub-item:hover .sub-sub-link {
+                background-color: rgb(157, 157, 255);
+                color: white;
+            }
+
+            .sub-sub-link {
+                display: block;
+                padding: 15px 50px 15px 20px;
+                white-space: nowrap;
+                color: rgba(0, 0, 0, 0.5);
+                text-decoration: none;
+            }
+
+            .left-triangle {
+                position: absolute;
+                right: 100%;
+                top: 14px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent white transparent transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="" class="menu-link active">Home</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">About</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Portfolio</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Blog</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Categories</a>
+
+                        <ul class="sub-menu">
+                            <li class="triangle"></li>
+                            <li class="sub-item">
+                                <a href="" class="sub-link">Sub-Menu 1</a>
+                            </li>
+
+                            <li class="sub-item">
+                                <a href="" class="sub-link">Sub-Menu 2</a>
+
+                                <ul class="sub-sub-menu">
+                                    <li class="left-triangle"></li>
+                                    <li class="sub-sub-item">
+                                        <a href="" class="sub-sub-link"
+                                            >Sub-Sub-Menu 1</a
+                                        >
+                                    </li>
+
+                                    <li class="sub-sub-item">
+                                        <a href="" class="sub-sub-link"
+                                            >Sub-Sub-Menu 2</a
+                                        >
+                                    </li>
+
+                                    <li class="sub-sub-item">
+                                        <a href="" class="sub-sub-link"
+                                            >Sub-Sub-Menu 3</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sub-item">
+                                <a href="" class="sub-link">Sub-Menu 3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Contact</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Sitemap</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Disclaimer</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+       
+    </body>
+</html>

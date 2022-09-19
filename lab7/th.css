@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(194, 91, 91);
+}
+.box {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform: rotate(45deg);
+  animation: stretch 2s ease-out 0s alternate infinite none running;
+}
+.box1,
+.box2 {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 100%;
+}
+.box1 {
+  top: -50%;
+}
+.box2 {
+  left: -50%;
+}
+@keyframes stretch {
+  from {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+    text-shadow: 0 10px 25px rgb(0, 0, 0/30%);
+  }
+  50% {
+    transform: scale(1.5);
+    text-shadow: 0 10px 25px rgb(0, 0, 0/30%);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.box {
+}

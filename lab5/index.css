@@ -1,0 +1,52 @@
+* {
+  width: 100px;
+  height: 100px;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: rgb(137, 219, 114);
+}
+.box3 {
+  background-color: rgb(83, 20, 160);
+}
+.box4 {
+  background-color: rgb(255, 0, 162);
+}
+.box5 {
+  background-color: rgb(184, 168, 43);
+}
+.box6 {
+  background-color: rgb(41, 54, 227);
+}
+.static {
+  /* Đây là giá trị mặc định */
+  position: static;
+}
+.fixed {
+  /* cố định phần tử trên khung nhìn */
+  position: fixed;
+  left: 10%;
+  /* các thuộc tính căn theo mép trình duyệt */
+  /* có thể áp dụng cùng lúc 4 gtri nhưng chỉ có tác dụng khi không có giá trị wight và height*/
+}
+.relative {
+  /* di chuyển nội dung so với vị trí ban đâu */
+  /* không ảnh hưởng đến những nội dung xung quanh */
+  position: relative;
+  /* các giá trị căn theo vị trí ban đầu của phần tử */
+  left: 20px;
+  top: 30px;
+  /* áp dung 2 thuộc tính */
+  /* thường làm mốc  cho các phần tử (absolute)khác căn theo  */
+}
+.absolute {
+  /* Thường p tử có absolute thường nằm trong p tử có relative ( có thể absolute | fixed)*/
+  /* căn theo p tử cha gần nhắt có position */
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* áp dụng cả 4 thuộc tính khi không giới hạn wight, height */
+/* thường tạo lớp phủ, menu đa cấp, các mục trang trí nhỏ */
+}

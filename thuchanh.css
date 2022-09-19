@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+.container {
+  width: 1000px;
+  height: 100vh;
+}
+.text {
+  color: #ffffff;
+  display: inline-block;
+  animation: stretch 1.5s inherit 0.3s;
+}
+@keyframes stretch   {
+  from,
+  to {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+}

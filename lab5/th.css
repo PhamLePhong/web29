@@ -1,0 +1,64 @@
+/* .heart,
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+.heart {
+  position: relative;
+  left: 150px;
+  top: 150px;
+  transform: rotate(45deg);
+}
+.circle {
+  position: absolute;
+  border-radius: 100%;
+}
+.top {
+  bottom: 50%;
+}
+.left {
+  right: 50%;
+}
+.name {
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  transform: rotate(-45deg);
+  font-size: 30px;
+  color: greenyellow;
+  text-shadow: 0 0 5px #000;
+}
+/* mình có thể CSS khi phần tử này đc di chuột con */
+/* áp dụng khi phần tử con
+.heart:hover {
+  background-color: blue;
+}
+.heart:hover .circle {
+  background-color: blue;
+}
+.heart:hover .name {
+  color: violet;
+} */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(79, 55, 101);
+}
+.menu-item {
+  flex-grow: 1;
+}
+.menu-link {
+  display: block;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}

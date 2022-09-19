@@ -1,0 +1,49 @@
+li {
+  list-style-type: none;
+}
+ul li ul li {
+  width: 110px;
+  display: none;
+}
+ul li ul {
+  width: 1100px;
+  border: 1px solid #000;
+  display: none;
+  gap: 10px;
+}
+ul li:hover ul li {
+  display: flex;
+}
+ul li:hover ul {
+  display: flex;
+}
+a {
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+.card-list {
+  position: absolute;
+  left: 0%;
+  
+}
+.items1 {
+  width: auto;
+  position: relative;
+  margin: 0;
+  
+}
+.items1 img {
+  width: 100%;
+}
+.items1-name {
+  position: absolute;
+  bottom: 0%;
+  margin: 5px;
+  color: #fff;
+}
+ul li {
+  width: 70px;
+  height: 100%;
+}
