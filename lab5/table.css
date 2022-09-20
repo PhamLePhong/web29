@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+table {
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+.map {
+  background-color: tomato;
+  border: 1px solid #ffffff;
+}
+.map th {
+  border: 1px solid #ffffff;
+  margin-bottom: 1px;
+}
+tbody {
+  border: 2px solid rgba(0, 0, 0, 0.429);
+}
+tr,
+th {
+  border: 1px solid #000;
+}
