@@ -15,52 +15,93 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <div class="form">
-            <h2>Đăng ký</h2>
-            <p>Nhanh chóng dễ dàng</p>
-            <hr />
-            <form action="">
-              <input type="text" placeholder="Họ" />
-              <input type="text" placeholder="Tên" />
-              <input
-                type="text"
-                placeholder="Số điện thoại di động hoặc email"
-              />
-              <input type="text" placeholder="Mật khẩu mới" />
-              <div class="date">
-                <label for=""
-                  >Ngày sinh <i class="bi bi-question-circle-fill"></i
-                ></label>
-                <select name="" id="">
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                </select>
-                <select name="" id="">
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                </select>
-                <select name="" id="">
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                  <option value=""></option>
-                </select>
-              </div>
-              <div class="vote">
-                <label for=""
-                  >Giới tính <i class="bi bi-question-circle-fill"></i
-                ></label>
-              </div>
-            </form>
-          </div>
+          <h2>Đăng ký</h2>
+          <p>Nhanh chóng dễ dàng</p>
         </nav>
+        <div class="form">
+          <form>
+            <div class="card-name">
+              <div class="name flex justify-between">
+                <input type="text" placeholder="Họ" />
+                <input type="text" placeholder="Tên" />
+              </div>
+              <div class="php">
+                <input type="text" placeholder="Số điện thoại hoặc email" />
+                <input type="text" placeholder="Mật khẩu mới" />
+              </div>
+            </div>
+            <div class="card-date flex justify-between">
+              <div>
+                <p>Ngày sinh <i class="bi bi-question-circle-fill"></i></p>
+              </div>
+              <div class="date flex justify-between">
+                <select>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">5</option>
+                  <option value="5">6</option>
+                </select>
+                <select>
+                  <option value="1">Tháng 4</option>
+                  <option value="2">Tháng 5</option>
+                  <option value="3">Tháng 6</option>
+                  <option value="4">Tháng 7</option>
+                  <option value="5">Tháng 8</option>
+                </select>
+                <select>
+                  <option value="1">Năm 2021</option>
+                  <option value="2">Năm 2022</option>
+                  <option value="3">Năm 2023</option>
+                  <option value="4">Năm 2024</option>
+                  <option value="5">Năm 2025</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-vote flex flex-wrap justify-between">
+              <div class="">
+                <p>Giới tính <i class="bi bi-question-circle-fill"></i></p>
+              </div>
+              <div class="box vote-item flex justify-between">
+                Nam
+                <input name="radio" type="radio" />
+              </div>
+              <div class="box vote-item flex justify-between">
+                Nữ
+                <input name="radio" type="radio" />
+              </div>
+              <div class="vote-item">
+                <input
+                  class="item1 position-relative"
+                  type="text"
+                  placeholder="Tùy chỉnh"
+                />
+                <input name="radio" class="item2 top-0 right-0" type="radio" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <p>
+          Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của
+          bạn lên Facebook.
+          <a
+            href="https://www.facebook.com/help/637205020878504"
+            target="_blank"
+            >Tìm hiểu thêm.</a
+          >
+        </p>
+        <p>
+          Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#">Điều khoản</a>,
+          <a href="#">Chính sách</a> <a href="#">quyền riêng tư</a> và
+          <a href="#">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được
+          thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+        </p>
+        <div class="div flex justify-center position-relative">
+          <form action="#">
+            <button><b>Đăng ký</b></button>
+          </form>
+        
+        </div>
       </div>
     </header>
   </body>
