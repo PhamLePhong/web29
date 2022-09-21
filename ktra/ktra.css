@@ -309,4 +309,5 @@ button:hover {
 }
 .society-item:hover {
   color: #000;
+ animation: name duration timing-function delay iteration-count direction fill-mode;
 }

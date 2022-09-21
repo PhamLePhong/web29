@@ -8,4 +8,111 @@
   padding: 0 7px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+}
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.position-fixed {
+  position: fixed;
+  z-index: 310;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.top-100 {
+  top: 100%;
+}
+button {
+  width: 178px;
+  border: 0ch;
+  background-color: tomato;
+  padding: 16px 16px;
+  margin-bottom: 4px;
+}
+table {
+  border: 3.5px solid rgba(0, 0, 0, 0.388);
+  width: 100%;
+  border-top: 2.5px solid rgba(0, 0, 0, 0.388);
+  border-collapse: collapse;
+}
+.card {
+  border: 3.5px solid rgba(0, 0, 0, 0.388);
+  border-bottom: 0;
+}
+th,
+td {
+  border: 1px solid #000;
+  /* display: flex; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 10px;
+}
+/* tr {
+  display: flex;
+  justify-content: center;
+} */
+/* thead {
+  text-align: center;
+} */
+.margin {
+  padding: 8px 10px;
+}
+th:hover,
+td:hover {
+  background-color: rgba(250, 129, 0, 0.605);
 }
