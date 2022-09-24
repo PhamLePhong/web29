@@ -153,8 +153,10 @@ console.log("S hình chữ nhật", findAreaOfRectangle(3, 4));
  *
  * @return {number} Đường kính hình tròn
  */
-function findDiameterOfCircle(r) {}
-
+function findDiameterOfCircle(r) {
+  return 2 * r;
+}
+console.log("duong kinh", findDiameterOfCircle(4));
 /**
  * Tìm chu vi hình tròn
  *
@@ -164,8 +166,10 @@ function findDiameterOfCircle(r) {}
  *
  * @return {number} Chu vi hình tròn
  */
-function findCircumferenceOfCircle(r) {}
-
+function findCircumferenceOfCircle(r) {
+  return 3.14 * 2 * r;
+}
+console.log("chu vi hinh tron", findCircumferenceOfCircle(4));
 /**
  * Tìm diện tích hình tròn
  *
@@ -195,8 +199,11 @@ console.log("S hình tròn", findAreaOfCircle(4));
  */
 
 function findAreaOfTriangle(a, b, c) {
-    return sprt((Math))
+  let p = (a + b + c) / 2;
+  return Math.sqrt(p * (p - a) * (p - b) * (p - c));
 }
+console.log("S tam giac", findAreaOfTriangle(3, 4, 5));
+// console.log(Math.sprt(findAreaOfTriangle ));
 
 /**
  * Chuyển đổi nhiệt ở ở thang nhiệt Celsius sang Fahrenheit
@@ -207,4 +214,10 @@ function findAreaOfTriangle(a, b, c) {
  *
  * @return {number} Nhiệt độ ở thang nhiệt Fahrenheit
  */
-function celsiusToFahrenheit(temp) {}
+function celsiusToFahrenheit(temp) {
+  return temp * 1.8 + 32;
+}
+console.log(
+  "Chuyển đổi nhiệt ở thang nhiệt Celsius sang Fahrenheit",
+  celsiusToFahrenheit(37)
+);
